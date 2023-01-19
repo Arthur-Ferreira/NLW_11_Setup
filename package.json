@@ -1,0 +1,11 @@
+{
+  "name": "nlw11_habits",
+  "version": "1.0.0",
+  "description": "Project created in the Next Level Week, with the Professor Maik Brito",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arthur Ferreira",
+  "license": "ISC"
+}
