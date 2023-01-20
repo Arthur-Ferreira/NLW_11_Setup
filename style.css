@@ -17,10 +17,13 @@ body {
     align-items: center;
     justify-content: space-between;
 
+    width: 100%;
     padding: 48px;
+
+    position: fixed;
 }
 
-button {
+#addButton {
     padding: 16px 24px;
 
     background-color: transparent;
@@ -37,16 +40,20 @@ button {
     font-weight: 600;
     font-size: 16px;
     line-height: 125%;
+
+    cursor: pointer;
 }
 
 #formHabits{
     display: flex;
 
-    padding: 0 48px;
+    padding: 182px 48px 48px;
+
+    width: fit-content;
 }
 
 .habits {
-    margin: 60px;
+    margin: 60px 0;
     display: flex;
     flex-direction: column;
 
@@ -105,4 +112,11 @@ input:checked {
     border: 2px solid #A78BFA;
     background: #8B5CF6;
 
+}
+
+
+@media (max-width: 570px) {
+    button div {
+        display: none;
+    }
 }
